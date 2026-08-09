@@ -4249,6 +4249,24 @@ abstract class AppLocalizations {
   /// **'Browse and sign up for volunteer activities'**
   String get zyscDesc;
 
+  /// No description provided for @dockLabelWfw.
+  ///
+  /// In en, this message translates to:
+  /// **'WS'**
+  String get dockLabelWfw;
+
+  /// No description provided for @wfwTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Microservices'**
+  String get wfwTitle;
+
+  /// No description provided for @wfwDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Access SCU microservice platform for campus services'**
+  String get wfwDesc;
+
   /// No description provided for @interactiveCalendar.
   ///
   /// In en, this message translates to:

@@ -33,6 +33,11 @@ class CookieClient extends http.BaseClient {
     return all.entries.map((e) => '${e.key}=${e.value}').join('; ');
   }
 
+  /// Returns cookies that would be sent to [url] (exact host or parent domain match).
+  Map<String, String> cookiesForUrl(String url) {
+    return Map.unmodifiable(_cookiesFor(Uri.parse(url)));
+  }
+
   /// 获取适合发送给 [uri] 的 cookie（域名匹配：精确 host 或父域）
   Map<String, String> _cookiesFor(Uri uri) {
     final host = uri.host;

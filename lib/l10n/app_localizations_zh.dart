@@ -2159,6 +2159,15 @@ class AppLocalizationsZh extends AppLocalizations {
   String get zyscDesc => '查看志愿服务活动并参与报名';
 
   @override
+  String get dockLabelWfw => '微服务';
+
+  @override
+  String get wfwTitle => '微服务';
+
+  @override
+  String get wfwDesc => '访问四川大学微服务平台，办理各项校园服务';
+
+  @override
   String get interactiveCalendar => '互动校历';
 
   @override

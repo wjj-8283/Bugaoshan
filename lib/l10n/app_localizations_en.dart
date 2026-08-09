@@ -2223,6 +2223,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String get zyscDesc => 'Browse and sign up for volunteer activities';
 
   @override
+  String get dockLabelWfw => 'WS';
+
+  @override
+  String get wfwTitle => 'Microservices';
+
+  @override
+  String get wfwDesc => 'Access SCU microservice platform for campus services';
+
+  @override
   String get interactiveCalendar => 'Interactive Calendar';
 
   @override
